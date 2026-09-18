@@ -1,0 +1,44 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="16" fill="#140a10"/>
+  <circle cx="400" cy="200" r="180" fill="#f43f5e" fill-opacity="0.08" filter="blur(60px)"/>
+  
+  <rect x="80" y="70" width="640" height="360" rx="14" fill="#1c0e18" fill-opacity="0.8" stroke="#f43f5e" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="80" y="70" width="640" height="46" rx="14" fill="#140911"/>
+  <circle cx="110" cy="93" r="5" fill="#ef4444"/>
+  <circle cx="126" cy="93" r="5" fill="#f59e0b"/>
+  <circle cx="142" cy="93" r="5" fill="#10b981"/>
+  <text x="170" y="98" fill="#fda4af" font-family="monospace" font-size="13">bus-booking-system // java-spring-mysql</text>
+
+  <!-- Interactive Seat Layout -->
+  <rect x="120" y="145" width="280" height="240" rx="10" fill="#10070d" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="140" y="175" fill="#fb7185" font-family="sans-serif" font-size="12" font-weight="bold">INTERACTIVE SEAT SELECTION</text>
+
+  <g transform="translate(140, 200)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="40" y="0" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="100" y="0" width="30" height="30" rx="4" fill="#ef4444"/>
+    <rect x="140" y="0" width="30" height="30" rx="4" fill="#10b981"/>
+
+    <!-- Row 2 -->
+    <rect x="0" y="45" width="30" height="30" rx="4" fill="#38bdf8"/>
+    <rect x="40" y="45" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="100" y="45" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="140" y="45" width="30" height="30" rx="4" fill="#ef4444"/>
+
+    <!-- Row 3 -->
+    <rect x="0" y="90" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="40" y="90" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="100" y="90" width="30" height="30" rx="4" fill="#10b981"/>
+    <rect x="140" y="90" width="30" height="30" rx="4" fill="#38bdf8"/>
+  </g>
+
+  <!-- Ticket Summary Card -->
+  <rect x="420" y="145" width="260" height="240" rx="10" fill="#10070d" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="440" y="175" fill="#94a3b8" font-family="monospace" font-size="11">RESERVATION CONFIRMATION</text>
+  <text x="440" y="210" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">Seat 2A &amp; 3D Selected</text>
+  <text x="440" y="240" fill="#f43f5e" font-family="sans-serif" font-size="14 font-weight="bold">Route: Bengaluru &rarr; Hubli</text>
+  <text x="440" y="270" fill="#94a3b8" font-family="sans-serif" font-size="12">Departure: 21:30 HRS</text>
+  <text x="440" y="300" fill="#10b981" font-family="monospace" font-size="11">&check; Instant PDF Ticket Generated</text>
+  <text x="440" y="325" fill="#38bdf8" font-family="monospace" font-size="11">&check; MySQL ACID Lock Engaged</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="16" fill="#080c18"/>
+  <circle cx="400" cy="200" r="180" fill="#6366f1" fill-opacity="0.08" filter="blur(60px)"/>
+  <circle cx="250" cy="300" r="140" fill="#06b6d4" fill-opacity="0.08" filter="blur(60px)"/>
+
+  <!-- Card Frame -->
+  <rect x="80" y="70" width="640" height="360" rx="14" fill="#0f172a" fill-opacity="0.8" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1.5"/>
+  
+  <!-- Header -->
+  <rect x="80" y="70" width="640" height="46" rx="14" fill="#0c1322"/>
+  <circle cx="110" cy="93" r="5" fill="#ef4444"/>
+  <circle cx="126" cy="93" r="5" fill="#f59e0b"/>
+  <circle cx="142" cy="93" r="5" fill="#10b981"/>
+  <text x="170" y="98" fill="#94a3b8" font-family="monospace" font-size="13">resumeiq-ai // gemini-1.5-ats-evaluator</text>
+
+  <!-- Left: Parsed Document Preview -->
+  <rect x="110" y="140" width="260" height="250" rx="8" fill="#090e1b" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="130" y="170" fill="#818cf8" font-family="sans-serif" font-size="12" font-weight="bold">EXTRACTED RESUME DATA</text>
+  <rect x="130" y="190" width="160" height="10" rx="4" fill="#334155"/>
+  <rect x="130" y="210" width="220" height="8" rx="4" fill="#1e293b"/>
+  <rect x="130" y="226" width="200" height="8" rx="4" fill="#1e293b"/>
+  <rect x="130" y="242" width="180" height="8" rx="4" fill="#1e293b"/>
+  <rect x="130" y="270" width="140" height="10" rx="4" fill="#334155"/>
+  <rect x="130" y="290" width="220" height="8" rx="4" fill="#1e293b"/>
+  <rect x="130" y="306" width="190" height="8" rx="4" fill="#1e293b"/>
+  <rect x="130" y="340" width="100" height="26" rx="6" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-opacity="0.4"/>
+  <text x="145" y="357" fill="#a5b4fc" font-family="monospace" font-size="10">Parsed: PyMuPDF</text>
+
+  <!-- Right: Score Gauge & Skills Gap -->
+  <rect x="390" y="140" width="300" height="115" rx="8" fill="#090e1b" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="410" y="165" fill="#94a3b8" font-family="monospace" font-size="11">OVERALL ATS MATCH SCORE</text>
+  <text x="410" y="210" fill="#38bdf8" font-family="sans-serif" font-size="36" font-weight="extrabold">92<tspan font-size="18" fill="#64748b">/100</tspan></text>
+  <text x="410" y="235" fill="#10b981" font-family="sans-serif" font-size="12">Tier 1 ATS Compatible</text>
+
+  <rect x="390" y="270" width="300" height="120" rx="8" fill="#090e1b" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="410" y="295" fill="#94a3b8" font-family="monospace" font-size="11">GEMINI SKILL GAP ADVISORY</text>
+  <text x="410" y="325" fill="#f8fafc" font-family="sans-serif" font-size="12">+ Strong Java &amp; Distributed Systems match</text>
+  <text x="410" y="345" fill="#f8fafc" font-family="sans-serif" font-size="12">+ Recommended: Highlight Kubernetes cluster scale</text>
+  <text x="410" y="370" fill="#818cf8" font-family="monospace" font-size="11">&gt; 12 keywords optimized</text>
+</svg>
